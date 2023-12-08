@@ -1,0 +1,38 @@
+*{
+    background-color: #1a1a1a;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 1px solid orange; */
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+#image{
+    max-width: 300px;
+    max-width: auto;
+}
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    margin: auto;
+}
+#img-div img, #img-div p, #img-div figcaption{
+    margin: 0 auto;
+}
+
+#img-div p{
+    max-width: 700px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+a{
+    text-align: center;
+    margin-top: 50px;
+}
